@@ -287,6 +287,7 @@ export function spawnAgentProcess(request: SpawnAgentProcessRequest): SpawnedAge
       stdio: [stdin, 'pipe', 'pipe'],
       cwd: request.cwd,
       shell: false,
+      windowsHide: true,
       detached,
       // Required when invocation wraps a Windows .cmd/.bat shim through
       // cmd.exe; without this, Node re-escapes the inner command line and
