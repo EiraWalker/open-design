@@ -1,0 +1,285 @@
+{
+  "upstream": "https://github.com/mattpocock/skills",
+  "revision": "49dd158d1076134a641b33efb035946536778336",
+  "license": "MIT",
+  "skills": [
+    {
+      "name": "ask-matt",
+      "group": "engineering",
+      "dependencies": [
+        "code-review",
+        "codebase-design",
+        "diagnosing-bugs",
+        "domain-modeling",
+        "grill-me",
+        "grill-with-docs",
+        "grilling",
+        "handoff",
+        "implement",
+        "implement-spec",
+        "improve-codebase-architecture",
+        "pr",
+        "prototype",
+        "research",
+        "retro",
+        "setup-matt-pocock-skills",
+        "tdd",
+        "teach",
+        "to-questionnaire",
+        "to-spec",
+        "to-tickets",
+        "triage",
+        "wait-what",
+        "wayfinder",
+        "wizard",
+        "writing-for-agents"
+      ],
+      "companions": [
+        "PHASE-BOUNDARIES.md"
+      ]
+    },
+    {
+      "name": "code-review",
+      "group": "engineering",
+      "dependencies": [
+        "setup-matt-pocock-skills"
+      ],
+      "companions": []
+    },
+    {
+      "name": "codebase-design",
+      "group": "engineering",
+      "dependencies": [],
+      "companions": [
+        "DEEPENING.md",
+        "DESIGN-IT-TWICE.md"
+      ]
+    },
+    {
+      "name": "diagnosing-bugs",
+      "group": "engineering",
+      "dependencies": [],
+      "companions": [
+        "scripts/hitl-loop.template.sh"
+      ]
+    },
+    {
+      "name": "domain-modeling",
+      "group": "engineering",
+      "dependencies": [],
+      "companions": [
+        "ADR-FORMAT.md",
+        "GLOSSARY-FORMAT.md"
+      ]
+    },
+    {
+      "name": "grill-with-docs",
+      "group": "engineering",
+      "dependencies": [
+        "domain-modeling",
+        "grilling"
+      ],
+      "companions": []
+    },
+    {
+      "name": "implement",
+      "group": "engineering",
+      "dependencies": [
+        "code-review",
+        "tdd"
+      ],
+      "companions": []
+    },
+    {
+      "name": "implement-spec",
+      "group": "engineering",
+      "dependencies": [
+        "code-review",
+        "setup-matt-pocock-skills",
+        "tdd",
+        "to-spec",
+        "to-tickets"
+      ],
+      "companions": []
+    },
+    {
+      "name": "improve-codebase-architecture",
+      "group": "engineering",
+      "dependencies": [
+        "codebase-design",
+        "domain-modeling",
+        "grilling"
+      ],
+      "companions": [
+        "HTML-REPORT.md"
+      ]
+    },
+    {
+      "name": "pr",
+      "group": "engineering",
+      "dependencies": [],
+      "companions": [
+        "CREDITS.md"
+      ]
+    },
+    {
+      "name": "prototype",
+      "group": "engineering",
+      "dependencies": [],
+      "companions": [
+        "LOGIC.md",
+        "UI.md"
+      ]
+    },
+    {
+      "name": "research",
+      "group": "engineering",
+      "dependencies": [],
+      "companions": []
+    },
+    {
+      "name": "retro",
+      "group": "engineering",
+      "dependencies": [
+        "writing-for-agents"
+      ],
+      "companions": []
+    },
+    {
+      "name": "setup-matt-pocock-skills",
+      "group": "engineering",
+      "dependencies": [
+        "domain-modeling",
+        "grill-with-docs",
+        "grilling",
+        "improve-codebase-architecture",
+        "pr",
+        "prototype",
+        "research",
+        "to-spec",
+        "to-tickets",
+        "triage",
+        "wayfinder"
+      ],
+      "companions": [
+        "domain.md",
+        "issue-tracker-github.md",
+        "issue-tracker-gitlab.md",
+        "issue-tracker-local.md",
+        "triage-labels.md"
+      ]
+    },
+    {
+      "name": "tdd",
+      "group": "engineering",
+      "dependencies": [
+        "code-review",
+        "codebase-design"
+      ],
+      "companions": [
+        "mocking.md",
+        "tests.md"
+      ]
+    },
+    {
+      "name": "to-spec",
+      "group": "engineering",
+      "dependencies": [
+        "setup-matt-pocock-skills"
+      ],
+      "companions": []
+    },
+    {
+      "name": "to-tickets",
+      "group": "engineering",
+      "dependencies": [
+        "setup-matt-pocock-skills"
+      ],
+      "companions": []
+    },
+    {
+      "name": "triage",
+      "group": "engineering",
+      "dependencies": [
+        "domain-modeling",
+        "grilling",
+        "setup-matt-pocock-skills"
+      ],
+      "companions": [
+        "AGENT-BRIEF.md",
+        "OUT-OF-SCOPE.md"
+      ]
+    },
+    {
+      "name": "wayfinder",
+      "group": "engineering",
+      "dependencies": [
+        "domain-modeling",
+        "grilling",
+        "prototype",
+        "research",
+        "setup-matt-pocock-skills"
+      ],
+      "companions": []
+    },
+    {
+      "name": "wizard",
+      "group": "engineering",
+      "dependencies": [],
+      "companions": [
+        "template.sh"
+      ]
+    },
+    {
+      "name": "grill-me",
+      "group": "productivity",
+      "dependencies": [
+        "grilling"
+      ],
+      "companions": []
+    },
+    {
+      "name": "grilling",
+      "group": "productivity",
+      "dependencies": [],
+      "companions": []
+    },
+    {
+      "name": "handoff",
+      "group": "productivity",
+      "dependencies": [],
+      "companions": []
+    },
+    {
+      "name": "teach",
+      "group": "productivity",
+      "dependencies": [],
+      "companions": [
+        "GLOSSARY-FORMAT.md",
+        "LEARNING-RECORD-FORMAT.md",
+        "MISSION-FORMAT.md",
+        "RESOURCES-FORMAT.md"
+      ]
+    },
+    {
+      "name": "to-questionnaire",
+      "group": "productivity",
+      "dependencies": [],
+      "companions": []
+    },
+    {
+      "name": "wait-what",
+      "group": "productivity",
+      "dependencies": [],
+      "companions": []
+    },
+    {
+      "name": "writing-for-agents",
+      "group": "productivity",
+      "dependencies": [],
+      "companions": [
+        "SKILL-MECHANICS.md"
+      ]
+    }
+  ]
+}
